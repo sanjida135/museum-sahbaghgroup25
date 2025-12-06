@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.muesum.TicketCounterStaff.SaveTicketController">
+   <children>
+      <Text layoutX="258.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="save ticket" />
+      <TableView fx:id="tableview" layoutY="114.0" prefHeight="114.0" prefWidth="299.0">
+        <columns>
+          <TableColumn fx:id="ticketselectionTC" prefWidth="112.0" text="Ticket selection" />
+          <TableColumn fx:id="visitornameTC" prefWidth="97.60003662109375" text="visitor name" />
+            <TableColumn fx:id="ticketypeTC" prefWidth="87.99998779296874" text="Ticket Type" />
+        </columns>
+      </TableView>
+      <Button layoutX="325.0" layoutY="200.0" mnemonicParsing="false" onAction="#saveOA" text="save" />
+   </children>
+</AnchorPane>

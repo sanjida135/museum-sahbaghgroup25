@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.muesum.TicketCounterStaff.SellTicketController">
+   <children>
+      <Label layoutX="248.0" layoutY="31.0" text="Sell Tickets" />
+      <Label layoutX="66.0" layoutY="99.0" text="visitor name" />
+      <Label layoutX="402.0" layoutY="153.0" />
+      <Label layoutX="374.0" layoutY="109.0" />
+      <TableView fx:id="tableview" layoutX="261.0" layoutY="192.0" prefHeight="200.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="dateTC" prefWidth="109.5999755859375" text="Date" />
+          <TableColumn fx:id="timeTC" prefWidth="86.4000244140625" text="Time" />
+        </columns>
+      </TableView>
+      <TextField fx:id="visitornameTF" layoutX="139.0" layoutY="95.0" />
+      <Text layoutX="69.0" layoutY="149.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ticket Type" />
+      <ComboBox fx:id="tickettypeCB" layoutX="139.0" layoutY="132.0" prefWidth="150.0" />
+      <Label fx:id="Success" layoutX="502.0" layoutY="49.0" text="success" />
+   </children>
+</AnchorPane>

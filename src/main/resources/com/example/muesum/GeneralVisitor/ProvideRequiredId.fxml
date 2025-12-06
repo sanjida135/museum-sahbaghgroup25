@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:id="verifiedLabel" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.muesum.GeneralVisitor.ProvideRequiredIdController">
+   <children>
+      <Label layoutX="232.0" layoutY="31.0" text="Provide Required ID" />
+      <Text layoutX="93.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Visitor ID" />
+      <Text layoutX="79.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID Category" wrappingWidth="76.521484375" />
+      <TextField fx:id="visitorIdTF" layoutX="190.0" layoutY="128.0" />
+      <TextField fx:id="idCategoryTF" layoutX="190.0" layoutY="195.0" />
+      <Label layoutX="398.0" layoutY="270.0" text="Verified " />
+   </children>
+</AnchorPane>
